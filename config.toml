@@ -1,0 +1,4 @@
+baseURL = 'http://scottyserv.ddns.net/'
+languageCode = 'en-us'
+title = "Kevin's SMP Minecraft Server"
+theme = 'ananke'
