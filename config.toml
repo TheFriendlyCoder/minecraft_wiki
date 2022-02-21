@@ -2,3 +2,20 @@ baseURL = 'http://scottyserv.ddns.net/'
 languageCode = 'en-us'
 title = "Kevin's SMP Minecraft Server"
 theme = 'ananke'
+
+[params]
+    toc = true
+    show_reading_time = true
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+
+# Testing asciidoc integration
+#[security]
+#  enableInlineShortcodes = false
+#  [security.exec]
+#    allow = ['asciidoc', '^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
